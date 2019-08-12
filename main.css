@@ -421,7 +421,7 @@ input {
 }
 
 .contact {
-    /*font-size: 20px;*/
+    font-size: 20px;
     color: #fff;
     text-shadow: 0 0 10px #333;
     font-family: 'Didact Gothic', sans-serif;
