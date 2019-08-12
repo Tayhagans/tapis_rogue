@@ -6,3 +6,5 @@ $(document).ready(function() {
     }, 3000);
  
 });
+
+new WOW().init();
