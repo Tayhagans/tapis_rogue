@@ -25,11 +25,16 @@ body {
 .loader {
 	border: 0 solid transparent; 
 	border-radius: 50%; 
+	position: relative;
+	display: block;
+    left: 50%;
+    top: 50%;
+     margin: -75px 0 0 -75px;
 	width: 150px; 
 	height: 150px; 
-	position: absolute;
+	/*position: absolute;
 	top: calc(50vh - 75px); 
-	left: calc(50vw - 75px);
+	left: calc(50vw - 75px);*/
 }
 
 .loader:before, .loader:after {
