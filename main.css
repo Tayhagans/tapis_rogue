@@ -261,7 +261,10 @@ background-attachment: fixed;
 	 content: "";
   display: block;
  /* background-image: url("imagec.jpg");*/
-  background-image: url("redoverlay2.jpg");
+/*  background-image: url("red.jpg");*/
+  /*  background-image: url("red1.jpg");*/
+  /*background-image: url("redoverlay2.jpg");*/
+  background-image: url("red2.jpg");
   position: fixed;
   left: 0;
   top: 0;
