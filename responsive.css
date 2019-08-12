@@ -1,0 +1,610 @@
+/*LAB TOP BREAK POINT*/
+
+
+
+@media screen and (min-width: 769px) {
+
+
+body {
+	  background-image-height: auto; 
+	  background-repeat: no-repeat;
+	  	background-position: center!important;
+	  	background-color: #000; 
+	  	/*opacity: .55; */
+}
+
+.tapis-logo {
+	width: initial; 
+}
+
+/*.body-main {
+	background-color: #000; 
+	color:#fff;
+
+	background-image: url("sky1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+	background-image-height: auto; 
+background-attachment: fixed; 
+
+}*/
+
+.col-top h1 {
+    color: #fff;
+    margin-top: initial;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 42px;
+    text-shadow: 0 0 10px #333;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.col-top h3 {
+    color: #fff;
+    margin-top: initial;
+    margin-bottom: 193px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 37px;
+    text-shadow: 0 0 10px #333;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.subscribe {
+    color: #fff;
+    font-size: 21px;
+    letter-spacing: 1px;
+    text-shadow: 0 0 10px #333;
+    font-family: 'Didact Gothic', sans-serif;
+}
+.red {
+    color: red;
+}
+
+.header-overlay {
+    height: 100vh;
+    width: 100vw; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    background: #000;  
+    z-index: 1; 
+    opacity: 0.35;
+}
+
+.header-content h1 {
+    font-size: 70px;
+    position: absolute;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    top: 13%;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Cinzel', serif;
+    text-shadow: 0 0 10px #333;
+
+}
+
+.artist-reg-pp {
+	text-align: center!important;
+	color: #fff!important; 
+}
+
+
+.body-main:before {
+	 content: "";
+  display: block;
+ /* background-image: url("imagec.jpg");*/
+  background-image: url("redoverlay.jpg");
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -10;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center!important;
+}
+
+
+
+.body-car:before {
+  content: "";
+  display: block;
+  position: fixed;
+
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .9) ), url("yellow_car.jpg");
+/*  background: url(photos/2452.jpg) no-repeat center center;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center!important;
+}
+
+/*.body-car {*/
+/*	background-size: cover!important; 
+	background-image: height!important;
+	background-color: #000!important; 
+	background-position: center!important;
+	background-repeat: no-repeat!important;
+	background-attachment: fixed!important;
+	 
+		background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .9) ), url("yellow_car.jpg"); 
+*/
+	
+	/*background-image: url("newyellow.jpg");*/
+
+/*	background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .9) ), url("yellow_car.jpg");*/
+
+/*}*/
+
+/*.body-art:before {
+  content: "";
+  display: block;
+  position: fixed!important;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+ background: linear-gradient( rgba(0, 0, 0, .1), rgba(0, 0, 0, .1) ), url("artist-copy.jpg");
+background-repeat: no-repeat;
+	 background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center!important;
+	 background-size: 350px;
+}*/
+
+.body-art {
+	background-image: url("artist-copy.jpg"); 
+
+	 background-size: 350px;
+
+	 background-attachment: fixed!important; 
+
+	 
+}
+
+.body-food {
+	background-image: url("food.png");
+	background-size: 400px; 
+	background-attachment: fixed!important;
+}
+
+.logo-img {
+	height: auto; 
+	width: 350px; 
+margin-top:40px; 
+  margin-bottom:40px; 
+	
+}
+
+
+
+.nav {
+	display: block;
+}
+
+li a {
+	color: #fff; 
+}
+
+li a:hover {
+	font-weight: bolder;
+	color: #fff; 
+	font-size: 20px; 
+}
+
+.fab {
+	font-size: 25px !important; 
+	margin: 15px; 
+	margin-top: 60px; 
+	margin-bottom: 50px; 
+}
+
+.form-group {
+  margin-bottom:10px; 
+}
+
+a {
+	color: #fff; 
+}
+
+a:hover {
+	color: #fff; 
+}
+
+form {
+	margin-top: 40px; 
+}
+
+input {
+	background-color: transparent!important;
+}
+
+#clockbox {
+	color: #fff; 
+	margin-top: 70px; 
+}
+
+#demo {
+	color: #fff; 
+}
+
+.clickBelow {
+	color: #fff!important;
+	font-size: 16px; 
+}
+
+
+
+.btn {
+	background-color: transparent!important;
+	border: 1px solid #fff; 
+	color: #fff; 
+}
+
+ .addressp {
+ 	font-weight: bolder; 
+ 	color: #fff; 
+ 	text-align: justify;
+ 	text-justify: inter-word;
+	margin-top: 30px; 
+}
+
+/**************BASH SUBMISSIONS*************************/
+
+
+.bash  {
+	text-align: center!important;
+	letter-spacing: 10px; 
+/*	color: #FF008F; */
+	color: #FF0089; 
+}
+
+.bash-date{
+	/*letter-spacing: 9px; */
+	color: #fff; 
+}
+
+.bsh-date {
+	color: #FF0089;
+}
+
+.btn-bash {
+/*	background-color: white!important;*/
+background-color: transparent!important; 
+	/*border: none; */
+	border: 2px solid #fff;
+	/*color: #000; */
+	font-weight: bolder; 
+	padding: 30px;
+	margin: 45px!important;   
+	text-align: center; 
+}
+
+.btn-bash:hover {
+	border: 6px solid #FF0089;
+	background-color: transparent!important; 
+}
+
+
+/**************CAR REG*************************/
+/*
+.cars-body {
+	height: 700px; 
+}
+*/
+.swrv-logo {
+height: auto; 
+	width: 250px; 
+	margin-top: 25px; 
+}
+
+.car-head {
+	color: #fff;
+	margin-top: 50px; 
+	margin-bottom: 20px; 
+	letter-spacing: 11px; 
+	font-size: 15px; 
+
+}
+
+.car-links {
+	color: #fff;
+}
+
+.car-head-l {
+	/*color: #FF0089;
+	font-size: 80px; */
+}
+
+.car-reg-p {
+	font-size: 15px; 
+	text-align: justify; 
+	margin-bottom: 0; 
+	font-weight: lighter;
+	color: lightgrey; 
+}
+
+.img-link{
+	font-weight: lighter;
+	color: lightgrey; 
+	margin-top: 20px; 
+}
+
+.carpp{
+	font-weight: bolder;
+
+}
+
+.car-pp {
+	color: #fff; 
+	font-weight: bolder;
+}
+
+.alert{
+	display: none; 
+	margin-top: 10px; 
+	font-size: 16px; 
+    text-align: center; 
+    padding: 10px; 
+    background-color: transparent; 
+   /* border: 1px solid #FF0089;  */
+    color: white;
+    margin-bottom: 10px; 
+    /*display: none; */
+} 
+
+::placeholder {
+	color: #fff!important; 
+}
+
+.f-control, .f-group {
+	border-top: medium none !important; 
+	border-left: medium none !important; 
+	border-right: medium none !important; 
+	box-shadow: none !important; 
+}
+
+input, textarea {
+	color: #fff!important; 
+	outline: none; 
+	box-shadow: none !important; 
+}
+
+.flyer_img {
+	opacity: .5; 
+}
+
+.car-img {
+	width: 250px;
+	margin-top: 3px; 
+	margin-bottom: 10px;
+
+
+	/*background-color: pink!important;*/
+}
+
+
+.car-reg-submit {
+	margin-top: 80px; 
+	margin-right: 50px; 
+	margin-left: 50px; 
+	letter-spacing: 5px;  
+	border-radius: 0!important;
+}
+
+.car-reg-submit_1 {
+	margin-right: 0; 
+	margin-left: 0; 
+	margin-top: 50px; 
+}
+
+.car-reg-submit:hover {
+	border: 3px solid #FF0089;
+}
+
+.car-img-submit {
+/*	color: #7100CC;
+	border-radius: 3px!important; */
+	display: none; 
+}
+
+/*input[type="file"] {
+	display: none; 
+}*/
+
+::-webkit-file-upload-button {
+
+  background-color: transparent;
+  color: #fff;
+  padding: 1em;
+  border-radius: 5px; 
+  border: 1px solid #7100CC; 
+  cursor: pointer; 
+
+}
+
+::-webkit-file-upload-button:hover {
+	border: 3px solid #7100CC; 
+}
+
+/*.car-uploadd {
+	border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}*/
+
+/*.car-img input[type="file"] {
+	-webkit-appearance:none;
+	position: absolute;
+}*/
+
+/*btn-upload {
+	position: relative !important;
+	overflow: hidden!important;
+	display: inline-block!important;
+}
+.btn-upload input [type=file] {
+	position: absolute!important; 
+	opacity: 0!important; 
+	z-index: 0!important; 
+	max-width: 100%!important; 
+	height: 100% !important; 
+	display: block !important; 
+}*/
+
+/***********HIDE NO FILE CHOOSE**********/
+
+/*input[type="file"] {
+	color: transparent;
+}*/
+
+
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px; 
+	opacity: 0; 
+	overflow: hidden;
+	position: absolute;
+	z-index: -1; 
+}
+
+.inputfile + label {
+	width: 150px;  
+	margin-top: 20px; 
+	background-color: transparent;
+  color: #fff;
+  padding: 1em;
+  border-radius: 5px; 
+  border: 1px solid #FFF; 
+  cursor: pointer; 
+}
+
+.inputfile:focus + label, 
+.inputfile + label:hover {
+	border: 3px solid #FF0089; 
+}
+
+/***********Artist***************/
+
+
+
+.artist-reg-submit {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 50%; /* Change this to whatever width you want. */
+   /* padding: 5px;*/ /* This creates some space between the element and the border. */
+    /* This creates the border. Replace black with whatever color you want. */
+    margin-top: 70px; 
+    font-size: 20px; 
+
+}
+
+.artist-reg-submit:hover {
+	border: 3px solid #fff!important;
+}
+
+/***********Vendors***************/
+
+.vendors-reg-submit {
+	content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 50%; /* Change this to whatever width you want. */
+    padding: 5px; /* This creates some space between the element and the border. */
+    /* This creates the border. Replace black with whatever color you want. */
+    margin-top: 100px; 
+    font-size: 20px;
+}
+
+.vendors-reg-submit:hover {
+	border: 3px solid #fff;
+}
+
+/***********Progress Box *************************************************/
+
+#uploader {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 100%; 
+	margin-bottom: 10px; 
+}
+
+
+
+#uploader_1, #uploader_2, #uploader_3 {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 100%; 
+	margin-bottom: 10px;
+}
+
+
+/*Flyer*/
+
+/*.fill .flyer_img {
+	object-fit: contain; 
+	width: 600px; 
+	height: 600px; 
+	/*opacity: .6; */
+/*}*/
+
+/*.fill {
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}*/
+.fill img {
+	margin-top: 35px; 
+/*    flex-shrink: 0;
+    width: auto;*/
+   /* object-fit: contain; 
+    height: 200px;*/
+
+}
+
+.foot-text a {
+	text-decoration: none; 
+	color: #000; 
+}
+
+.panel-footer {
+	height: auto;
+    background-color: #f5f5f5; 
+    font-size: smaller; 
+    border-top: 1px solid #7100CC; 
+    margin-top: 120px; 
+    color: #000; 
+}
+
+.panel-footer p {
+	margin-top: 10px; 
+	font-size: 14px;
+	text-align: left;  
+/*	margin-bottom: 20px;*/ 
+}
+
+.panel-footer img {
+	margin-left: 3px; 
+}
+
+}
