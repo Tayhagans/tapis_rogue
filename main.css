@@ -225,6 +225,12 @@ background-attachment: fixed;
     color: red;
 }
 
+input, textarea {
+  color: #fff!important; 
+  outline: none; 
+  box-shadow: none !important; 
+}
+
 .header-overlay {
     height: 100vh;
     width: 100vw; 
