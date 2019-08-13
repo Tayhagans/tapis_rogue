@@ -42,7 +42,7 @@ body {
 .loader_bg {
 	position: fixed; 
 	z-index: 999999; 
-	background:#000;
+	background:#fff;
 	width: 100%; 
 	height: 100%; 
 }
@@ -64,7 +64,7 @@ body {
 
 .loader:before, .loader:after {
 	content: ''; 
-	border: 1em solid red; 
+	border: 1em solid darkred; 
 	/*box-shadow: 2px 5px #fff;*/
 	border-radius: 50%; 
 	width: 200px;
@@ -195,7 +195,7 @@ background-attachment: fixed;
 }*/
 
 .col-top h1 {
-    color: #fff;
+    color: #000;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 25px;
@@ -205,7 +205,7 @@ background-attachment: fixed;
 }
 
 .col-top h3 {
-    color: #fff;
+    color: #000;
     margin-top: 60px; 
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -215,14 +215,29 @@ background-attachment: fixed;
 }
 
 .subscribe {
-    color: #fff;
+    color: #000;
     font-size: 21px;
     letter-spacing: 1px;
     text-shadow: 0 0 10px #333;
     font-family: 'Didact Gothic', sans-serif;
 }
+
+.form-control {
+    border: 1px solid #000;
+  
+}
 .red {
-    color: red;
+    color: darkred;
+}
+
+input::placeholder {
+  color: #000!important;
+}
+
+input, textarea {
+  color: #000!important; 
+  outline: none; 
+  box-shadow: none !important; 
 }
 
 .header-overlay {
@@ -260,12 +275,8 @@ background-attachment: fixed;
 .body-main:before {
 	 content: "";
   display: block;
- /* background-image: url("imagec.jpg");*/
-/*  background-image: url("red.jpg");*/
-  /*  background-image: url("red1.jpg");*/
-  /*background-image: url("redoverlay2.jpg");*/
-  background-image: url("red2.jpg");
- /* background-image: url("preview2.jpeg");*/
+
+  background-image: url("preview2.jpeg");
   position: fixed;
   left: 0;
   top: 0;
@@ -420,14 +431,18 @@ input {
 
 .btn {
 	background-color: transparent!important;
-	border: 1px solid #fff; 
-	color: #fff; 
+	border: 1px solid #000; 
+	color: #000; 
+}
+
+.fab {
+  color: darkred; 
 }
 
 .contact {
     font-size: 20px;
     color: #fff;
-    text-shadow: 0 0 10px #333;
+    text-shadow: 0 0 10px #000;
     font-family: 'Didact Gothic', sans-serif;
 }
 
