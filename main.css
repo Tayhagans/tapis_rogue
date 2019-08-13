@@ -388,6 +388,10 @@ li a:hover {
 	margin-bottom: 50px; 
 }
 
+.fab:hover {
+	color: red; 
+}
+
 .form-group {
   margin-bottom:10px; 
 }
@@ -428,6 +432,10 @@ input {
 	background-color: transparent!important;
 	border: 1px solid #fff; 
 	color: #fff; 
+}
+
+.btn:hover {
+	border: 2px solid #fff; 
 }
 
 .contact {
