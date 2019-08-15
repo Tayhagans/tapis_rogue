@@ -14,7 +14,8 @@ body {
 }
 
 .tapis-logo {
-	width: initial; 
+	/*width: initial; */
+	width: 100%; 
 }
 
 .contact {
