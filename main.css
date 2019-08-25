@@ -479,7 +479,9 @@ input {
 #mc_embed_signup .button {
     font-size: 13px;
     cursor: pointer;
-    border: none;
+    border-left: none;
+    border-right: none; 
+    border-top: none;
     border-bottom: 2px solid #fff; 
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
