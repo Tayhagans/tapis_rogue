@@ -629,16 +629,16 @@ input, textarea {
 
 .foot-text a {
 	text-decoration: none; 
-	color: #000; 
+	
 }
 
 .panel-footer {
 	height: auto;
-    background-color: #f5f5f5; 
+
     font-size: smaller; 
-    border-top: 1px solid #7100CC; 
+ 
     margin-top: 120px; 
-    color: #000; 
+
 }
 
 .panel-footer p {
