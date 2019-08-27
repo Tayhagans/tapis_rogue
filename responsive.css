@@ -18,6 +18,10 @@ body {
 	width: 100%; 
 }
 
+.foot-text span {
+    float: right;
+}
+
 /************CONTACT************/
 #mc_embed_signup input.email {
     font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,Verdana,sans-serif;
